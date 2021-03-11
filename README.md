@@ -1,4 +1,4 @@
-== James Spring boot JPA webclient api
+## James Spring boot JPA webclient api
 
 It is a spring boot project with Apache JAMES(Java Mail Server) configuration which helps you to interact with JAMES functionalities via REST APIs.
 
@@ -6,7 +6,7 @@ It is implemented only for openJPA and it is using postgresql, rabbitmq, JAMES 3
 
 APIs authentication only allowed via the use of JWT.
 
-=== Install requirments
+### Install requirments
 
 * JDK 11
 * Maven 3.6 
@@ -17,7 +17,7 @@ APIs authentication only allowed via the use of JWT.
 * JAMES 3.5.0 or later
 
 
-=== Functionalities
+### Functionalities
 
 Currently it is supporting following functionalities
 
@@ -31,7 +31,7 @@ Currently it is supporting following functionalities
 * Download an attachment
 
 
-=== Install JAMES
+### Install JAMES
 
 * Unzip apache-james-3.5.0-app.zip.
 * Copy postgresql jdbc driver jar into conf/lib

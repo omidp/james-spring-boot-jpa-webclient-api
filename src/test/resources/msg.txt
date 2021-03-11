@@ -1,0 +1,47 @@
+This is a multi-part message in MIME format.
+--------------05DCAB82E83F4FD1DDFF2BBB
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+az mobi be raram this is with attachment
+
+
+--------------05DCAB82E83F4FD1DDFF2BBB
+Content-Type: text/xml;
+ name="soapui-settings.xml"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment;
+ filename="soapui-settings.xml"
+
+<?xml version=3D"1.0" encoding=3D"UTF-8"?>
+<con:soapui-settings xmlns:con=3D"http://eviware.com/soapui/config"><con:=
+setting id=3D"WsdlSettings@excluded-types">&lt;con:entry xmlns:con=3D"htt=
+p://eviware.com/soapui/config">schema@http://www.w3.org/2001/XMLSchema&lt=
+;/con:entry></con:setting><con:setting id=3D"WsdlSettings@name-with-bindi=
+ng">true</con:setting><con:setting id=3D"HttpSettings@http_version">1.1</=
+con:setting><con:setting id=3D"HttpSettings@max_total_connections">2000</=
+con:setting><con:setting id=3D"HttpSettings@response-compression">true</c=
+on:setting><con:setting id=3D"HttpSettings@leave_mockengine">true</con:se=
+tting><con:setting id=3D"UISettings@auto_save_projects_on_exit">true</con=
+:setting><con:setting id=3D"UISettings@show_descriptions">true</con:setti=
+ng><con:setting id=3D"WsdlSettings@xml-generation-always-include-optional=
+-elements">true</con:setting><con:setting id=3D"WsaSettings@useDefaultRel=
+atesTo">true</con:setting><con:setting id=3D"WsaSettings@useDefaultRelati=
+onshipType">true</con:setting><con:setting id=3D"UISettings@show_startup_=
+page">true</con:setting><con:setting id=3D"UISettings@gc_interval">60</co=
+n:setting><con:setting id=3D"WsdlSettings@cache-wsdls">true</con:setting>=
+<con:setting id=3D"WsdlSettings@pretty-print-response-xml">true</con:sett=
+ing><con:setting id=3D"HttpSettings@include_request_in_time_taken">true</=
+con:setting><con:setting id=3D"HttpSettings@include_response_in_time_take=
+n">true</con:setting><con:setting id=3D"HttpSettings@start_mock_service">=
+true</con:setting><con:setting id=3D"UISettings@auto_save_interval">0</co=
+n:setting><con:setting id=3D"WsaSettings@soapActionOverridesWsaAction">tr=
+ue</con:setting><con:setting id=3D"WsaSettings@overrideExistingHeaders">t=
+rue</con:setting><con:setting id=3D"WsaSettings@enableForOptional">true</=
+con:setting><con:setting id=3D"VersionUpdateSettings@auto-check-version-u=
+pdate">true</con:setting><con:setting id=3D"ProxySettings@autoProxy">true=
+</con:setting><con:setting id=3D"ProxySettings@enableProxy">true</con:set=
+ting><con:setting id=3D"WSISettings@location">/opt/SmartBear/SoapUI-5.5.0=
+/wsi-test-tools</con:setting><con:setting id=3D"UISettings@show_stay_tune=
+d">false</con:setting></con:soapui-settings>
+--------------05DCAB82E83F4FD1DDFF2BBB--

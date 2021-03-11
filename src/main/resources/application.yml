@@ -1,0 +1,36 @@
+webapi:
+  driverClassName: org.postgresql.Driver
+  user: james
+  pwd: james
+  url: jdbc:postgresql://127.0.0.1:5432/jamesdb
+  jwt:
+    token:
+      secretKey: JAMES #application-specific string used to encrypt tokens
+      expiration: 600000 # token valid for 10 minutes
+  rabbit:
+    uri: "amqp://localhost?heartbeat=5&connection_timeout=10000"
+    management:
+      uri: "http://localhost:15672"
+      user: "guest"
+      password: "guest"  
+  
+  
+  
+server:
+  port: 8668
+  
+  
+  
+spring:
+  mail:
+    host: mydomain.tld
+    port: 25
+    username: 
+    password: 
+    properties:
+      mail.smtp.connectiontimeout: 5000
+      mail.smtp.timeout: 3000
+      mail.smtp.writetimeout: 5000
+      mail.smtp.auth: false
+      mail.smtp.starttls.enable: false
+        

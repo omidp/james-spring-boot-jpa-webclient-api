@@ -28,7 +28,7 @@ Currently it is supporting following functionalities
 * List user's mailbox
 * Load mailbox messages
 * List and Load attachments
-* Download an attachment
+* Download an attachment (JAMES 3.6)
 
 
 ### Install JAMES
@@ -52,7 +52,7 @@ vendorAdapter.database=POSTGRESQL
 sudo ./run.sh
 ```
 
-=== Test JAMES Setup
+### Test JAMES Setup
 
 * From bin folder execute 
 
@@ -81,12 +81,12 @@ this is a test
 
 PS: You can also use thunderbird or any mail client to check it is working.
 
-=== Run the project
+### Run the project
 
 
 ```
--> mvn verify
--> java -jar target/
+-> mvn clean install
+-> java -jar target/james-spring-boot-jpa-webclient-api-0.0.1-SNAPSHOT.jar
 ```
 
 
